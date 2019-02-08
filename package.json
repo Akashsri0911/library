@@ -1,0 +1,29 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "where book resides",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Rohit Bhatt",
+  "license": "E1104",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.6.1",
+    "ejs-lint": "^0.3.0",
+    "express": "^4.16.3",
+    "express-ejs-layouts": "^2.5.0",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.12",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Register</title>
+    <%- include('../partials/head') %>
+</head>
+
+<body class="container">
+    <header>
+        <%- include('../pages/header'); %>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <form action="/api/users/register" method="post">
+                Name: <input type="text" name="name"></br>
+                Email Id: <input type="email" name="email"></br>
+                Password: <input type="password" name="password"></br>
+                Password2: <input type="password" name="password2"></br>
+                <input type="submit">
+            </form>
+    </main>
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+</body>
+
+</html>
